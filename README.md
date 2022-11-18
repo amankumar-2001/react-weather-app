@@ -36,7 +36,7 @@ Clone the repo and setup the application
 
 ## API Details
 
-```http
+```
   https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&appid={API key}
 ```
 
