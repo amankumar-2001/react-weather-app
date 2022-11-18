@@ -34,6 +34,13 @@ Clone the repo and setup the application
 - npm install
 - npm start
 
+
+
+## Application Link:
+
+Link to the Application hosted on Netlify [https://apcode15-weather-app.netlify.app/](https://apcode15-weather-app.netlify.app/)
+
+
 ## API Details
 
 ```
@@ -49,9 +56,6 @@ API key used in the application : `e5eccfea6c9d8df3c773ee0118dbb7d6`
 
 
 
-## Application Link:
-
-Link to the Application hosted on Netlify [https://apcode15-weather-app.netlify.app/](https://apcode15-weather-app.netlify.app/)
 ## Author
 
 - [@amankumar-2001](https://www.github.com/amankumar-2001)
