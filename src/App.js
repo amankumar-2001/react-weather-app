@@ -18,14 +18,17 @@ function App() {
   }
 
   return (
-    <div className="app">
-      <div className='search'>
-        <input
-          value={location}
-          onChange={event => setLocation(event.target.value)}
-          onKeyPress={searchLocation}
-          placeholder='Enter Location'
-          type='text' />
+    <div className='app'>
+      <div className='titleClass'>
+        <h1 className='title'>Weather App</h1>
+        <div className='search'>
+          <input
+            value={location}
+            onChange={event => setLocation(event.target.value)}
+            onKeyPress={searchLocation}
+            placeholder='Enter Location'
+            type='text' />
+        </div>
       </div>
       <div className='container'>
         <div className='top'>
@@ -38,7 +41,7 @@ function App() {
           </div>
           <div className='description'>
             {data.weather ? <p className='bold'>{data.weather[0].main}</p> : null}
-          </div> 
+          </div>
         </div>
 
         {data.name !== undefined &&
