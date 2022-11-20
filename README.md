@@ -5,6 +5,9 @@ Weather application that gives current Weather report of any city.
 App should be responsive with the portrait mode and placed horizontally when in landscape mode.
 
 
+### Image-UI
+![alt text](./public/App-UI.png)
+
 ### High Level Design:
 
 - Components used in the app are Title, Form, Cities.
